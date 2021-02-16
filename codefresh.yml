@@ -34,7 +34,6 @@ steps:
     image: "maven" # The image in which command will be executed
     working_directory: "${{clone}}" # Running command where code cloned
     commands:
-      - "This is Frist Maven Pipline"
       - "mvn compile"
     stage: "test"
 
